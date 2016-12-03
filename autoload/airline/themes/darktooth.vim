@@ -36,9 +36,9 @@ let g:airline#themes#darktooth#palette.inactive = airline#themes#generate_color_
 if !get(g:, 'loaded_ctrlp', 0)
   finish
 endif
-let s:CP1 = [ "#95C085", "#1D2021", 108, 234 ]
-let s:CP2 = [ "#1D2021", "#95C085", 234, 108 ]
-let s:CP3 = [ "#A89984", "#32302F", 138, 236 ]
+let s:CP2 = [ "#95C085", "#1D2021", 108, 234 ]
+let s:CP3 = [ "#1D2021", "#95C085", 234, 108 ]
+let s:CP1 = [ "#A89984", "#32302F", 138, 236 ]
 
 let g:airline#themes#darktooth#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(s:CP1, s:CP2, s:CP3)
 
