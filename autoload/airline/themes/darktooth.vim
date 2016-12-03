@@ -29,8 +29,8 @@ let s:visual3 = [ "#A89984", "#32302F", 138, 236 ]
 let g:airline#themes#darktooth#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
 let s:inactive1 = [ "#504945", "#32302F", 239, 236 ]
-let s:inactive2 = [ "#32302F", "#504945", 236, 239 ]
-let s:inactive3 = [ "#32302F", "#504945", 236, 239 ]
+let s:inactive2 = [ "#504945", "#32302F", 236, 239 ]
+let s:inactive3 = [ "#32302F", "#32302F", 236, 239 ]
 let g:airline#themes#darktooth#palette.inactive = airline#themes#generate_color_map(s:inactive1, s:inactive2, s:inactive3)
 
 if !get(g:, 'loaded_ctrlp', 0)
